@@ -3,7 +3,7 @@ use strict;
 no warnings;
 
 package DBIx::Simple::Interpol;
-$DBIx::Simple::Interpol::VERSION = '1.004';
+$DBIx::Simple::Interpol::VERSION = '1.005';
 # ABSTRACT: monkey-patch DBIx::Simple to use SQL::Interpol
 
 use Exporter::Tidy _map => {
@@ -38,7 +38,7 @@ DBIx::Simple::Interpol - monkey-patch DBIx::Simple to use SQL::Interpol
 
 =head1 VERSION
 
-version 1.004
+version 1.005
 
 =head1 SYNOPSIS
 
